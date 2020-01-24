@@ -3,6 +3,7 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import MuiLink from '@material-ui/core/Link';
+import BUtton from '@material-ui/core/Button';
 
 function Copyright() {
     return (
@@ -24,6 +25,7 @@ export default function Index() {
                 <Typography variant="h4" component="h1" gutterBottom>
                     Cool Breeze App
                 </Typography>
+                <Button variant="contained">Default</Button>
                 <Copyright/>
             </Box>
         </Container>
