@@ -3,7 +3,7 @@ import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import MuiLink from '@material-ui/core/Link';
-import BUtton from '@material-ui/core/Button';
+import Button from '@material-ui/core/Button';
 
 function Copyright() {
     return (
